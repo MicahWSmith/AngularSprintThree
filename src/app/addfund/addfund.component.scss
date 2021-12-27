@@ -1,0 +1,30 @@
+.fund_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui;
+}
+
+.form_inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    input{
+        margin: 10px;
+        height: 30px;
+        font-size: 20px;
+    }
+    button{
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+.input_row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,8 +1,14 @@
 <div class="funds_content">
+    <h1>Your investments</h1>
     <table *ngIf="funds">
         <tr *ngFor="let fund of funds">
             <!-- <app-fund [fund]="fund"></app-fund> -->
-            <td><button class="fund_button" [routerLink]="['/funds', fund.id]">{{ fund.name }}</button></td>
+            <td>
+                <button class="fund_button" [routerLink]="['/funds', fund.id]">
+                    <h2>{{ fund.name }}</h2>
+                    <h3>{{ fund.value | currency }}</h3>
+                </button>
+            </td>
         </tr>
     </table>
 </div>
