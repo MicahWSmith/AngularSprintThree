@@ -1,0 +1,8 @@
+<div class="funds_content">
+    <table *ngIf="funds">
+        <tr *ngFor="let fund of funds">
+            <!-- <app-fund [fund]="fund"></app-fund> -->
+            <td><button class="fund_button" [routerLink]="['/funds', fund.id]">{{ fund.name }}</button></td>
+        </tr>
+    </table>
+</div>

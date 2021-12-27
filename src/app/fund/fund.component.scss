@@ -1,0 +1,23 @@
+.investment_actions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.investment_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.investment_card{
+    background-color: rgb(202, 214, 248);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    min-width: 300px;
+    h1{
+        cursor: pointer;
+    }
+}

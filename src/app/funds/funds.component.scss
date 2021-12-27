@@ -1,0 +1,20 @@
+.funds_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: system-ui;
+}
+
+.fund_button{
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    color: oldlace;
+    background-color: rgb(5, 120, 187);
+    cursor: pointer;
+}
+
+td{
+    text-align: center;
+}

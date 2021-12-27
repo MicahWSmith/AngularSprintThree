@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    background-color: rgb(219, 219, 219);
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    background-color: rgb(73, 137, 255);
+}
+
+header > a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: system-ui;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}

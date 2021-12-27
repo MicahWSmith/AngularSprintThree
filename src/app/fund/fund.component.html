@@ -1,0 +1,16 @@
+<div class="investment_card">
+    <div class="investment_content">
+        <h1>{{ fund.name }}</h1>
+        <input type="text" [(ngModel)]="fund.name" [value]= "fund.name"/>
+        <h2>Value {{ fund.value | currency }}</h2>
+        <input type="text" [(ngModel)]="fund.value" [value]= "fund.value"/>
+        <h3>Details</h3>
+        <ul>
+            <li>Return {{ fund.return }}%</li>
+        </ul>
+        <div class="investment_actions">
+            <button (click)="deleteFund()">Delete</button>
+            <button (click)="editFund()">Edit</button>
+        </div>
+    </div>
+</div>
